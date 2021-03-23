@@ -1,0 +1,59 @@
+body {
+    background-color: rgba(57, 173, 193, 0.45);
+}
+
+Button {
+    background-color: #fdffff;
+    size: 20cm;
+    font-family: "Yu Gothic UI Semibold";
+    border: #fdffff;
+    border-block-end-width: 20cm;
+}
+
+#Play_Button {
+    background-color: silver;
+    position: center;
+    size: 30cm;
+    font-family: "Yu Gothic UI Semibold";
+    border: #060244;
+    border-width: 2cm;
+    border-block-end-width: 20cm;
+}
+
+#Continue_button {
+    background-color: silver;
+}
+
+#Sign\ In{
+    background-color: silver;
+}
+
+#Restart{
+    background-color: silver;
+}
+
+#login-header{
+    font-family: "Yu Gothic UI Semibold";
+    color: black;
+    size: 100000cm;
+}
+
+#login-error-msg{
+    display: none;
+}
+
+input {
+    background-color: #fdffff;
+    font-family: "Yu Gothic UI Semibold";
+}
+
+title {
+    color: dodgerblue;
+    size: 100cm;
+}
+text {
+    font-family: "Yu Gothic UI Semibold";
+    position: center;
+    size: 20cm;
+}
+Button
