@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CARD GAME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="main-holder">
+    <div id="login-header">Login</div>
+
+</main>
+<script src="cardgame.js"></script>
+
+<div id="loginform" class="form">
+    <div class="tab-body">
+        <div class="form-element">
+            <input type ="text" id ="username" placeholder="Username">
+        </div>
+        <div class="form-element">
+            <input type = "text" id ="password" placeholder="Password">
+        </div>
+        <div class="form-element">
+            <button onclick="login()" id= "Sign In">Sign In </button>
+    </div>
+</div>
+    <div id="login-error-msg">Invalid username and/or password </div>
+
+</div>
+<button onclick="Play_Now()" id="Play_Button">Play </button>
+<button onclick="Continue()" id="Continue_button">Continue </button>
+<div id="winnerofround"> </div>
+<div id="p1scoredisplay"> </div>
+<div id="p2scoredisplay"> </div>
+<div id="winnerofgame"> </div>
+<button onclick="restart()" id="Restart">Restart </button>
+</body>
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login-page.css">
+    <script defer src="login-page.js"></script>
+</head>
+
+
+</html>
